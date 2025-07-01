@@ -24,47 +24,144 @@
                     <li><a href="#" class="nav__link">Blog</a></li>
                     <li><a href="#" class="nav__link">Pricing</a></li>
                     <li><a href="#" class="nav__link">Contact Us</a></li>
-                    <div class="login__container"></div>
-                        <li><a href="#" class="nav__link login">Login</a></li>
-                        <li><a href="#" class="nav__link nav__link--primary">Sign Up</a></li>
-                    </div>
+                    <li><a href="#" class="nav__link login">Login</a></li>
+                    <li><a href="#" class="nav__link nav__link--primary">Sign Up</a></li> 
                 </ul>
                 <button class="btn__menu" onclick="openMenu()">
                     <i class="fas fa-bars"></i>
                 </button>
-                <div class="modal">
-                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
-                        <i class="fas fa-times"></i>
-                    </button>
-                    <ul class="modal__links">
-                        <li class="modal__link">
-                            <a href="#" class="modal__link" onclick="closeMenu()">About</a>
-                        </li>
-                        <li class="modal__link">
-                            <a href="#blog" class="modal__link" onclick="closeMenu()">Blog</a>
-                        </li>
-                        <li class="modal__link">
-                            <a href="#pricing" class="modal__link" onclick="closeMenu()">Pricing</a>
-                        </li>
-                        <li class="modal__link">
-                            <a href="#contact us" class="modal__link" onclick="closeMenu()">Contact Us</a>
-                        </li>
-                        <li class="modal__link">
-                            <a href="#login" class="modal__link" onclick="closeMenu()">Login</a>
-                        </li>
-                        <li class="modal__link--primary">
-                            <a href="#sign up" class="modal__link--su" onclick="closeMenu()">Sign Up</a>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </nav>
-        
-            
+        <div class="modal">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <i class="fas fa-times"></i>
+            </button>
+            <ul class="modal__links">
+                <li class="modal__link">
+                    <a href="#" class="modal__link" onclick="closeMenu()">About</a>
+                </li>
+                <li class="modal__link">
+                    <a href="#blog" class="modal__link" onclick="closeMenu()">Blog</a>
+                </li>
+                <li class="modal__link">
+                    <a href="#pricing" class="modal__link" onclick="closeMenu()">Pricing</a>
+                </li>
+                <li class="modal__link">
+                    <a href="#contact us" class="modal__link" onclick="closeMenu()">Contact Us</a>
+                </li>
+                <li class="modal__link">
+                    <a href="#login" class="modal__link" onclick="closeMenu()">Login</a>
+                </li>
+                <li class="modal__link modal__link--primary">
+                    <a href="#sign up" class="modal__link--su" onclick="closeMenu()">Sign Up</a>
+                </li>
+            </ul>
         </div>
+        
         <header>
-
+            <div class="container">
+                <div class="row">
+                    <div class="header__description">
+                        <h1>Beautiful React Templates <span class="purple">for you.</span></h1>
+                        <p class=" header__description--para">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+                        <div class="header__email">
+                            <input type="text" class="header__email--input" placeholder="Your E-mail Address">
+                            <button class="header__email--btn">Get Started</button>
+                        </div>
+                        <p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
+                        <img src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt class="header__customers"></IMG>
+                    </div>
+                    <figure class="header__img--wrapper">
+                        <img src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="header__img">
+                    </figure>
+                </div>
+            </div>
         </header>
     </section>
+
+    <main>
+        <section id="features">
+            <div class="container">
+                <div class="row__narrow">
+                    <h4 class="section_tag">FEATURES</h4>
+                    <h2 class="section__title">We have Amazing <span>Service</span></h2>
+                    <div class="section__para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nulla animi commodi earum dolore iusto! Aliquam debitis sed dolores similique nam? Modi illo fugiat voluptatem earum eos quis asperiores assumenda?
+                    </div>
+                    <div class="features">
+                        <div class="feature">
+                            <div class="feature__row">
+                                <figure class="feature__img--wrapper">
+                                    <img src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="feature__img">
+                                </figure>
+                                <div class="feature__text">
+                                    <h2 class="feature__title">Secure</h2>
+                                    <p class="feature__para">We strictly only deal with vendors that provide top notch security</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__row">
+                                <figure class="feature__img--wrapper">
+                                    <img src="./assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="feature__img">
+                                </figure>
+                                <div class="feature__text">
+                                    <h2 class="feature__title">24/7 Support</h2>
+                                    <p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, pariatur. Doloremque, aut illo!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__row">
+                                <figure class="feature__img--wrapper">
+                                    <img src="./assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="feature__img">
+                                </figure>
+                                <div class="feature__text">
+                                    <h2 class="feature__title">Customizable</h2>
+                                    <p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nihil ea quisquam, expedita placeat a?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__row">
+                                <figure class="feature__img--wrapper">
+                                    <img src="./assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="feature__img">
+                                </figure>
+                                <div class="feature__text">
+                                    <h2 class="feature__title">Reliable</h2>
+                                    <p class="feature__para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga adipisci sapiente, fugit obcaecati natus iusto a in!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__row">
+                                <figure class="feature__img--wrapper">
+                                    <img src="./assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="feature__img">
+                                </figure>
+                                <div class="feature__text">
+                                    <h2 class="feature__title">Fast</h2>
+                                    <p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, aliquam?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__row">
+                                <figure class="feature__img--wrapper">
+                                    <img src="./assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="feature__img">
+                                </figure>
+                                <div class="feature__text">
+                                    <h2 class="feature__title">Easy</h2>
+                                    <p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptas eligendi porro ipsa ad at optio, quae consectetur distinctio architecto. A adipisci soluta inventore voluptates?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+        </section>
+    </main>
 </body>
 </html>
