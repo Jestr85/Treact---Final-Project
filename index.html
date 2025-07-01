@@ -19,14 +19,14 @@
                     <img class="nav__logo--img" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="logo">
                     <div class="nav__logo--title">Treact</div>
                 </div>
-                <ul class="nav__links">
-                    <li><a href="#" class="nav__link">About</a></li>
-                    <li><a href="#" class="nav__link">Blog</a></li>
-                    <li><a href="#" class="nav__link">Pricing</a></li>
-                    <li><a href="#" class="nav__link">Contact Us</a></li>
-                    <li><a href="#" class="nav__link login">Login</a></li>
-                    <li><a href="#" class="nav__link nav__link--primary">Sign Up</a></li> 
-                </ul>
+                <div class="nav__links">
+                    <a href="#" class="nav__link">About</a>
+                    <a href="#" class="nav__link">Blog</a>
+                    <a href="#" class="nav__link">Pricing</a>
+                    <a href="#" class="nav__link">Contact Us</a>
+                    <a href="#" class="nav__link login">Login</a>
+                    <a href="#" class="nav__link nav__link--primary">Sign Up</a></li> 
+                </div>
                 <button class="btn__menu" onclick="openMenu()">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -36,26 +36,14 @@
             <button class="btn__menu btn__menu--close" onclick="closeMenu()">
                 <i class="fas fa-times"></i>
             </button>
-            <ul class="modal__links">
-                <li class="modal__link">
-                    <a href="#" class="modal__link" onclick="closeMenu()">About</a>
-                </li>
-                <li class="modal__link">
-                    <a href="#blog" class="modal__link" onclick="closeMenu()">Blog</a>
-                </li>
-                <li class="modal__link">
-                    <a href="#pricing" class="modal__link" onclick="closeMenu()">Pricing</a>
-                </li>
-                <li class="modal__link">
-                    <a href="#contact us" class="modal__link" onclick="closeMenu()">Contact Us</a>
-                </li>
-                <li class="modal__link">
-                    <a href="#login" class="modal__link" onclick="closeMenu()">Login</a>
-                </li>
-                <li class="modal__link modal__link--primary">
-                    <a href="#sign up" class="modal__link--su" onclick="closeMenu()">Sign Up</a>
-                </li>
-            </ul>
+            <div class="modal__links">
+                <a href="#" class="modal__link" onclick="closeMenu()">About</a>
+                <a href="#blog" class="modal__link" onclick="closeMenu()">Blog</a>
+                <a href="#pricing" class="modal__link" onclick="closeMenu()">Pricing</a>
+                <a href="#contact us" class="modal__link" onclick="closeMenu()">Contact Us</a>
+                <a href="#login" class="modal__link" onclick="closeMenu()">Login</a>
+                <a href="#sign up" class="modal__link modal__link--primary" onclick="closeMenu()">Sign Up</a>
+            </div>
         </div>
         
         <header>
@@ -83,8 +71,8 @@
         <section id="features">
             <div class="container">
                 <div class="row__narrow">
-                    <h4 class="section_tag">FEATURES</h4>
-                    <h2 class="section__title">We have Amazing <span>Service</span></h2>
+                    <h4 class="section__tag">FEATURES</h4>
+                    <h2 class="section__title">We have Amazing <span class="purple">Service.</span></h2>
                     <div class="section__para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nulla animi commodi earum dolore iusto! Aliquam debitis sed dolores similique nam? Modi illo fugiat voluptatem earum eos quis asperiores assumenda?
                     </div>
                     <div class="features">
