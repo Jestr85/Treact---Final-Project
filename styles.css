@@ -1205,7 +1205,30 @@ footer {
 .footer__socials {
     display: flex;
     align-items: center;
-    margin-left: -16px;
+    margin-left: 16px;
+}
+
+.footer__social--link {
+    margin-left: 16px;
+    padding: 8px;
+    background: #f7fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 300ms;
+    height: 32px;
+    width: 32px;
+}
+
+.footer__social--link:hover {
+    background-color: rgba(203, 213, 224)
+}
+
+.svg {
+    color: #243e63
 }
 
 
@@ -1549,5 +1572,23 @@ footer {
 
     .footer__column {
         width: calc(100% / 3);
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__copyright {
+        margin-top: 32px;
+    }
+
+    .footer__socials {
+        margin-top: 32px;
+        margin-left: 0px;
+    }
+
+    .footer__social--link:first-child {
+        margin-left: 0px;
     }
 }
