@@ -437,6 +437,7 @@ h2 {
 
 #quality .row {
     display: flex;
+    align-items: center;
 }
 
 .quality__description {
